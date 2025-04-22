@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AprilAire//AI Survey//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20250509T100000-AprilAireAISurvey@example.com
+DTSTAMP:20250422T170000Z
+DTSTART;TZID=America/Chicago:20250509T100000
+DTEND;TZID=America/Chicago:20250509T101500
+SUMMARY:Take the 2025 AprilAire AI tools and technology survey
+LOCATION:https://forms.office.com/r/5gCMmGcq1S
+DESCRIPTION:The recently formed RP AI Steering Committee is asking you to respond to a companywide survey to better understand attitudes and usage of AI tools across the company. Where might you see value in incorporating AI tools and technology in your role? Do you think AI is worth the hype? Which products should the company consider using on a large scale? These insights and more will be gathered from all who respond to this 5 minute survey. Responses will be accepted through the end of the week (May 9th).
+
+You can’t spell AprilAire without “Ai”.
+Take the survey now: https://forms.office.com/r/5gCMmGcq1S
+CATEGORIES:AI, Internal Survey, AprilAire
+STATUS:CONFIRMED
+SEQUENCE:0
+PRIORITY:1
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Take the AprilAire AI Survey
+END:VALARM
+END:VEVENT
+END:VCALENDAR
